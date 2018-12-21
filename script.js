@@ -22,7 +22,9 @@
 /*----Javascript----*/
 /*-Evenement click-*/
 
-var element = document.getElementById('clickme');
+  
+//0
+  var element = document.getElementById('clickme0');
   // Premier événement click
   element.addEventListener('click', function() {
       alert("Votre commercial vous attend au 06 92 00 32 10, Merci de votre confiance chère client");
@@ -32,7 +34,60 @@ var element = document.getElementById('clickme');
     alert("Votre commercial vous attend au 06 92 00 32 10, Merci de votre visite");
   })
 
-  
+//1
+  var element = document.getElementById('clickme1');
+  // Premier événement click
+  element.addEventListener('click', function() {
+      alert("Votre commercial vous attend au 06 92 00 32 10, Merci de votre confiance chère client");
+  });
+ 
+  element.removeEventListener('click', function() {
+    alert("Votre commercial vous attend au 06 92 00 32 10, Merci de votre visite");
+  })
+
+//2
+  var element = document.getElementById('clickme2');
+  // Premier événement click
+  element.addEventListener('click', function() {
+      alert("Votre commercial vous attend au 06 92 00 32 10, Merci de votre confiance chère client");
+  });
+ 
+  element.removeEventListener('click', function() {
+    alert("Votre commercial vous attend au 06 92 00 32 10, Merci de votre visite");
+  })
+
+  //3
+  var element = document.getElementById('clickme3');
+  // Premier événement click
+  element.addEventListener('click', function() {
+      alert("Votre commercial vous attend au 06 92 00 32 10, Merci de votre confiance chère client");
+  });
+ 
+  element.removeEventListener('click', function() {
+    alert("Votre commercial vous attend au 06 92 00 32 10, Merci de votre visite");
+  })
+
+//4
+  var element = document.getElementById('clickme4');
+  // Premier événement click
+  element.addEventListener('click', function() {
+      alert("Votre commercial vous attend au 06 92 00 32 10, Merci de votre confiance chère client");
+  });
+ 
+  element.removeEventListener('click', function() {
+    alert("Votre commercial vous attend au 06 92 00 32 10, Merci de votre visite");
+  })
+
+  //5
+  var element = document.getElementById('clickme5');
+  // Premier événement click
+  element.addEventListener('click', function() {
+      alert("Votre commercial vous attend au 06 92 00 32 10, Merci de votre confiance chère client");
+  });
+ 
+  element.removeEventListener('click', function() {
+    alert("Votre commercial vous attend au 06 92 00 32 10, Merci de votre visite");
+  })
 
 
 /*-jquery---------------------------------------------------------------------------*/
