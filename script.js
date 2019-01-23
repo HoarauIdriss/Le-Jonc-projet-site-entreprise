@@ -1,9 +1,5 @@
 
 
-//Carousel
-
-$('.carousel').carousel();
-
 
 
 /*  Gallery d'article */
@@ -86,6 +82,11 @@ element.addEventListener('click', function () {
 element.removeEventListener('click', function () {
   alert("Votre commercial vous attend au 06 92 00 32 10, Merci de votre visite");
 })
+
+
+//Carousel
+
+$('.carousel').carousel()
 
 
 /*-jquery---------------------------------------------------------------------------*/
