@@ -1,7 +1,6 @@
 header{
     background-color: #C98474;
 }
-
 header a{
     text-decoration: none;
     color:navajowhite;
@@ -9,11 +8,9 @@ header a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12Px;
 }
-
 a:hover{
     color: black;
 }
-
 #jum{
     background-color: #C98474 !important;
 }
