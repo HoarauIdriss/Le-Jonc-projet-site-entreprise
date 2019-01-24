@@ -1,3 +1,5 @@
+//loader Jquery
+jQuery(window).load(function(){ jQuery(".loader").fadeOut("200"); });
 /*----Javascript----*/
 /*-Evenement click-*/
 //0
@@ -86,9 +88,6 @@ $('#myModal2').modal(options);
 $('#myModal3').modal(options);
 //Carousel
 $('.carousel').carousel();
-
-
-
 
 
 
