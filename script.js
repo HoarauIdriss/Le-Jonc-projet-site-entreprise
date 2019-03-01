@@ -76,6 +76,8 @@ $(function () {
     $("html, body").animate({ scrollTop: 0 }, "slow");
   });
 })
+
+
 /*-Modal-*/
 /* javascript---------------------------------------------------------------------*/
 /* nav-tab */

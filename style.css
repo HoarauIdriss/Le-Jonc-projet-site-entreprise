@@ -41,3 +41,58 @@ a:hover{
 		padding: 0;
 		text-align: center;
 	}
+
+
+	/*icon facebook*/
+	#facebookicon{
+		color: #c98474;
+		font-size: 40px;
+		position: fixed;
+    	right: 20px;
+    	bottom: 236px;
+	}
+
+	#facebookicon:hover{
+		color: #800000;
+		font-size: 41px;
+		
+	}
+
+	#monBouton:hover{
+		font-size: 17px;
+	}
+
+	@media screen and (max-width: 600px) {
+		#facebookicon{
+			color: #c98474;
+			font-size: 40px;
+			position: fixed;
+			right: 20px;
+			bottom: 272px;
+		}
+	
+		#facebookicon:hover{
+			color: #800000;
+			font-size: 41px;
+			
+		}
+
+	  }
+
+
+	  @media screen and (max-width: 400px) {
+		#facebookicon{
+			color: #c98474;
+			font-size: 40px;
+			position: fixed;
+			right: 20px;
+			bottom: 256px;
+		}
+	
+		#facebookicon:hover{
+			color: #800000;
+			font-size: 41px;
+			
+		}
+
+	  }
