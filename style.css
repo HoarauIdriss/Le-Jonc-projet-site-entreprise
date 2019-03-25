@@ -1,6 +1,12 @@
 
 
+.navbar-light .navbar-brand {
+    color: navajowhite;
+}
 
+.navbar-light .navbar-brand:hover {
+    color: white !important;
+}
 
 nav a h1{
 background-color:#c98474 !important;
