@@ -1,21 +1,23 @@
-header{
-    background-color: #C98474;
-}
-header a{
-    text-decoration: none;
-    color:navajowhite;
-    text-transform: uppercase;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12Px;
-}
-a:hover{
-    color: black;
+
+
+
+
+nav a h1{
+background-color:#c98474 !important;
 }
 #jum{
     background-color: #C98474 !important;
 }
+.card{
+	width: 18rem;
+	height: 100%;
+}
 
-
+.ze img{
+    border: 1px #c98474 solid !important;
+    border-radius: 4px !important;
+}
+	
 /*loader*/
 .loader{
 	background: url('img le jonc/ajax-loader.gif') 50% 50% no-repeat rgba(255, 255, 255, 0.8);
@@ -41,6 +43,10 @@ a:hover{
 		padding: 0;
 		text-align: center;
 	}
+/*Jumbotron2*/
+#jumbotron2{
+	background-color: #e5d7b2 !important;
+}
 
 
 	/*icon facebook*/
@@ -62,6 +68,8 @@ a:hover{
 		font-size: 17px;
 	}
 
+
+	/*adaptation de mon écran sur différent format d'écran*/
 	@media screen and (max-width: 600px) {
 		#facebookicon{
 			color: #c98474;
@@ -74,12 +82,11 @@ a:hover{
 		#facebookicon:hover{
 			color: #800000;
 			font-size: 41px;
-			
 		}
 
 	  }
 
-
+	  /*adaptation de mon écran sur différent format d'écran*/
 	  @media screen and (max-width: 400px) {
 		#facebookicon{
 			color: #c98474;
@@ -96,3 +103,7 @@ a:hover{
 		}
 
 	  }
+
+	  /*
+	  */
+	  
