@@ -73,10 +73,12 @@ background-color:#c98474 !important;
 	#monBouton:hover{
 		font-size: 17px;
 	}
-
+	.img{
+		width: 40rem !important;
+	}
 
 	/*adaptation de mon écran sur différent format d'écran*/
-	@media screen and (max-width: 600px) {
+	@media screen and (max-width: 700px) {
 		#facebookicon{
 			color: #c98474;
 			font-size: 40px;
@@ -89,6 +91,8 @@ background-color:#c98474 !important;
 			color: #800000;
 			font-size: 41px;
 		}
+
+		
 
 	  }
 
@@ -108,8 +112,18 @@ background-color:#c98474 !important;
 			
 		}
 
+		.img{
+			width: 13rem !important;
+		}
+
 	  }
 
+	  @media screen and (max-width: 600px) {
+		
+		.img{
+			width: 12rem !important;
+		}
+
+	  }
 	  /*
 	  */
-	  
